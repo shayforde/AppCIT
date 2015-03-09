@@ -2,6 +2,8 @@ package project.dnet3.appcit;
 
 import android.app.Activity;
 import android.net.wifi.p2p.WifiP2pManager;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -112,6 +114,18 @@ public class MainActivity extends ActionBarActivity {
 
                 case R.id.button3:
                     Log.i("CIT App", "Button 1 has been pressed");
+
+                    // Create an instance of Fragment1
+                    CitPortal firstFragment = new CitPortal();
+
+                    // In case this activity was started with special instructions from an Intent,
+                    // pass the Intent's extras to the fragment as arguments
+                    firstFragment.setArguments(getActivity().getIntent().getExtras());
+
+                    // Add the fragment to the 'fragment_container' FrameLayout
+            //        getActivity().getSupportFragmentManager().beginTransaction()
+            //                .add(R.id.fragment_mycitportal, firstFragment).commit();
+
                     Toast.makeText( getActivity(),  R.string.button3, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.button4:
