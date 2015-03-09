@@ -107,34 +107,34 @@ public class MainActivity extends ActionBarActivity {
                     break;
                 case R.id.button2:
                     //switchFragment(SettingsFragment.TAG);
-                    Toast.makeText( getActivity(), "button 2", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(), R.string.button2, Toast.LENGTH_SHORT).show();
                     break;
 
                 case R.id.button3:
                     Log.i("CIT App", "Button 1 has been pressed");
-                    Toast.makeText( getActivity(), "button 3", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button3, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.button4:
                     //switchFragment(SettingsFragment.TAG);
-                    Toast.makeText( getActivity(), "button 4", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button4, Toast.LENGTH_SHORT).show();
                     break;
 
                 case R.id.button5:
                     Log.i("CIT App", "Button 1 has been pressed");
-                    Toast.makeText( getActivity(), "button 5", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button5, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.button6:
                     //switchFragment(SettingsFragment.TAG);
-                    Toast.makeText( getActivity(), "button 6", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button6, Toast.LENGTH_SHORT).show();
                     break;
 
                 case R.id.button7:
                     Log.i("CIT App", "Button 1 has been pressed");
-                    Toast.makeText( getActivity(), "button 7", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button7, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.button8:
                     //switchFragment(SettingsFragment.TAG);
-                    Toast.makeText( getActivity(), "button 8", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( getActivity(),  R.string.button8, Toast.LENGTH_SHORT).show();
                     break;
                 default:
             }
